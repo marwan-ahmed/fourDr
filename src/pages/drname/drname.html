@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar color="gren">
+    <ion-title>اسماء الاطباء و تخصصهم</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="main">
+    
+    <ion-list dir="rtl" color="gren" class="ionList">
+        <ion-item color="gren">
+            <ion-avatar item-start>
+                <img src="assets/imgs/avatar.png">
+            </ion-avatar>
+            <h1>اسم الطبيب</h1>
+            <p>التخصص</p>
+        <button class="viewBtn" item-end (click)="goToDrName()">مشاهدة</button>
+        </ion-item>
+    </ion-list>
+    
+    
+  </div>
+</ion-content>
